@@ -1,5 +1,3 @@
-# userauth_pubkey: key type ssh-dss not in PubkeyAcceptedKeyTypes
-
 When using modern OpenSSH server you can encounter problems when using DSA type keys. The error represents itself with the following error message in ```auth.log``` or ```secure.log```: ```userauth_pubkey: key type ssh-dss not in PubkeyAcceptedKeyTypes```.
 
 
