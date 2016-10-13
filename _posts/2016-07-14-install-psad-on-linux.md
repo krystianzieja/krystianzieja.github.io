@@ -69,6 +69,18 @@ iptables-save > /etc/iptables/rules.v4
 
 {% endhighlight %}
 
+If you have also IPv6 enabled you should add below.
+
+{% highlight text %}
+
+ip6tables -A INPUT -j LOG
+
+ip6tables -A FORWARD -j LOG
+
+ip6tables-save > /etc/iptables/rules.v6
+
+{% endhighlight %}
+
 The last thing to do is to point PSAD to a file, which contains iptables log. On RHEL based distributions that would be ```/var/log/messages``` and on Debian based distributions i.e. Ubuntu ```/var/log/syslog```, so we need to point to proper file in ```/etc/psad/psad.conf``` file.
 
 {% highlight text %}
