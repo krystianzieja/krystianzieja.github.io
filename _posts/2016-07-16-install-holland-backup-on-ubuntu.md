@@ -1,4 +1,4 @@
-Holland Backup is very neat software that simplifies MySQL backups.
+Holland Backup is very neat software that simplifies MySQL backups and can also work with other types of backups.
 
 
 If you are working on newer ubuntu than 14.10 you have to perform installation from source. We start from downloading the newest version.

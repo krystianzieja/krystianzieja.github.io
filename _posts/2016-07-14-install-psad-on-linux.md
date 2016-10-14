@@ -1,4 +1,4 @@
-PSAD is ...
+PSAD is a collection of three lightweight system daemons (two main daemons and one helper daemon) that run on Linux machines and analyze iptables log messages to detect port scans and other suspicious traffic. 
 
 
 Install PSAD
